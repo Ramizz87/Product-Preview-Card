@@ -4,23 +4,28 @@ body {
   font-family: 'Montserrat';
   font-size: 14px;
 }
-
 h1 {
+  font-size: 14px;
+  letter-spacing: 6px;
+}
+
+h2 {
   color: #1c232b;
   font-family: 'Fraunces';
   font-size: 2.3rem;
   font-weight: 700;
 }
 
-h3 {
-  font-size: 14px;
-  letter-spacing: 6px;
-}
-
 p {
   font-weight: 500;
   line-height: 2;
   margin: 20px 20px 20px 0;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .col-lg-6 {
